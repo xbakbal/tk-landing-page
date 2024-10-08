@@ -2,6 +2,8 @@ import crowbarLogo from './assets/crowbar.png'
 import instagramLogo from './assets/instagram.svg'
 import facebookLogo from './assets/facebook.svg'
 import youtubeLogo from './assets/youtube.svg'
+import tiktokLogo from './assets/tiktok.svg'
+import twitterLogo from './assets/twitter.svg'
 import './App.css'
 
 function App() {
@@ -15,14 +17,20 @@ function App() {
       <h1>Arka planda bol bol levye sallıyoruz...</h1>
       <h1>Sosyal medyada gözünüz üzerimizde olsun! </h1>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={instagramLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.facebook.com/teknolojiklevye" target="_blank">
+          <img src={facebookLogo} className="logo" alt="Facebook logo" />
         </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={facebookLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.instagram.com/teknolojiklevye" target="_blank">
+          <img src={instagramLogo} className="logo" alt="Instagram logo" />
         </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={youtubeLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.youtube.com/teknolojiklevye" target="_blank">
+          <img src={youtubeLogo} className="logo" alt="Youtube logo" />
+        </a>
+        <a href="https://x.com/TeknolojikLevye" target="_blank">
+          <img src={twitterLogo} className="logo" alt="X logo" />
+        </a>
+        <a href="https://www.tiktok.com/@teknolojiklevye" target="_blank">
+          <img src={tiktokLogo} className="logo" alt="Tiktok logo" />
         </a>
       </div>
       {/* <div className="card">
