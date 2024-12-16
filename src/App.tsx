@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Twitter, Linkedin, Instagram, Mail, Facebook, Youtube } from 'lucide-react';
+import { Twitter, Instagram, Mail, Facebook, Youtube } from 'lucide-react';
 import SocialLink from './components/SocialLink';
 import Hero from './components/Hero';
 
